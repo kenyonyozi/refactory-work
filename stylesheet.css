@@ -1,0 +1,117 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(221, 211, 221);
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: #26d0c9;
+    color:whitesmoke;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+    
+  }
+  li:hover{
+    background: cadetblue;
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 100px 80px;
+ } 
+  
+  .copy-container h2 {
+    font-size: 20px;
+  }
+  
+  .copy-container h2 {
+    font-size: 40px;
+  }
+  .copy-container{
+   background-color: white;
+   height: 400px;
+   padding: 60px;
+  }
+  
+  /* .copy-container span {
+    color: #ff4a4a;
+     */
+  
+  .contents {
+    height: 900px;
+    margin-top: 100px;
+  }
+  .title{
+    padding-top: 20px;
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .title h2{
+      font-size: 20px;
+      padding-top: 200px;
+  }
+  
+  .section-title {
+    /* border-bottom: 2px solid #dee7ec; */
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .contents-item{
+    width: 250px;
+    float:left;
+    height: 250px;
+    background-color:white;
+    margin: 5px;
+  }
+  
+  .contents-item p {
+    font-size: 10px;
+    margin: 20px 20px 20px 20px ;
+    padding-top: 70px;
+  }
+  .contents-item h3{
+      text-align: center;
+  }
+  .contents-item h6{
+      text-align: center;
+
+  }
+  
+  .contact-form {
+    padding-top: 250px;
+    text-align: center;
+  }
+  .contact-form p{
+    background-color:#dee7ec;
+    color:#889eab;
+  } 
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    /* height: 120px; */
+    /* padding: 100px; */
+  }
+  
+  .footer-logo {
+    font-size: 32px;
+  }
+
+  

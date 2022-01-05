@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+  background: burlywood;
+  padding: 10px 40px 10px 70px;
+  border: 1px soild #000000;
+  border-left: none;
+  border-right: none;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li.logo{
+  flex: 1;
+  font-size: 30px;
+  font-weight: 700px;
+}
+nav ul div.items{
+  padding: 0 25px;
+  display: inline-flex;
+}
+nav ul div.items a{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 12px;
+}
+nav ul .search-icon{
+  height: 40px;
+  width: 240px;
+  display: flex;
+  margin-right: 600px;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+nav ul .search-icon input{
+  height: 100%;
+  width: 200px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+nav ul.search-icon .icon{
+  height: 100%;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px soild red;
+  border-radius: 0 5px 0 5px ;
+  cursor: pointer;
+}
+nav ul .search-icon .icon span{
+  color: #222222;
+  font-size: 18px;
+}
+.page{
+  background: red;
+    width: 75%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+    float:right;
+    height: 450px;
+}
+ .title{
+  float: right;
+  margin-right: 250px;
+  margin-top: 100px;
+  text-align: center;
+
+}
+.content{
+  float: left;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.content-two{
+  float: right;
+  margin-right: 300px;
+  margin-top: 30px;
+}
+.container{
+  width: 21%;
+  background-color: transparent;
+}
